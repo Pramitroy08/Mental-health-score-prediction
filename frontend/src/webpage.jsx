@@ -444,7 +444,8 @@ function Gauge({ score }) {
 
 export default function MentalHealthPredictor() {
   const [apiUrl, setApiUrl] =
-    useState("http://localhost:8000");
+    useState("https://mental-health-score-prediction-backend.onrender.com");
+    
 
   const [theme, setTheme] =
     useState(() => {
