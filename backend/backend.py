@@ -5,7 +5,7 @@ import pandas as pd
 from typing import Literal
 from fastapi.middleware.cors import CORSMiddleware
 
-model = joblib.load('../model training/Mental_Health_Model.pkl')
+model = joblib.load('Mental_Health_Model.pkl')
 
 top_countries = ['Other','India','USA','Canada','Australia','UK','Germany','Mexico','Turkey','France']
 app = FastAPI()

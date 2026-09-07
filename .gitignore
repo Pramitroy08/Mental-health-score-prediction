@@ -65,7 +65,7 @@ Thumbs.db
 # Machine Learning / Large Files
 # ==============================
 
-*.pkl
+
 *.pickle
 
 # ==============================
